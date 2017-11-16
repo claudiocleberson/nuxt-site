@@ -13,7 +13,9 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0-rc11"
+    "nuxt": "^1.0.0-rc11",
+    "scrollreveal": "^3.3.6",
+    "vue-scrollto": "^2.8.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

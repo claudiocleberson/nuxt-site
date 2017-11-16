@@ -10,8 +10,16 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'},
+      { rel: 'stylesheet', href: '/css/main.550dcf66.css'}
+    ],
+    script: [
+      { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'},
+      { src:'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'},
+      { src: '/js/main.js', type: 'javascript'}
     ]
+
   },
   /*
   ** Customize the progress bar color
@@ -20,10 +28,13 @@ module.exports = {
   /*
   ** Build configuration
   */
+  plugins: ['~/plugins/vue-scrollto.js'],
   build: {
     /*
     ** Run ESLint on save
     */
+    vendor: ['vue-scrollto'],
+
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
