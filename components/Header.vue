@@ -9,16 +9,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <router-link to="/" tag="a" class="navbar-brand"  title="">
+          <nuxt-link  to="/" tag="a" class="navbar-brand"  title="">
             <img src="/images/essencial_logo.png" class="navbar-logo-img" style="margin-right: 10px" alt="">
              ESSENCIAL
-          </router-link>
+          </nuxt-link >
         </div>
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <router-link to="/" tag="li" href="#"><a>Início</a></router-link>
-            <router-link to="/servicos" tag="li" href="#"><a>Serviços</a></router-link>
+            <nuxt-link  to="/" tag="li" href="#"><a>Início</a></nuxt-link >
+            <nuxt-link  to="/servicos" tag="li" href="#"><a>Serviços</a></nuxt-link >
             <li>
               <p class="hidden">
                 <a href="./components.html" class="btn btn-default navbar-btn" title="">Components</a>

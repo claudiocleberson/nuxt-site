@@ -5,10 +5,10 @@
         <div class="col-xs-12">
         <div class="row">
             <div class="col-xs-12 col-sm-7">
-              <router-link to="/" tag="a" class="navbar-brand text-top" title="">
+              <nuxt-link  to="/" tag="a" class="navbar-brand text-top" title="">
                 <img src="/images/essencial_logo2.png" class="navbar-logo-img" style="margin-right: 10px" alt="">
                  ESSENCIAL
-              </router-link>
+              </nuxt-link >
             </div>
             <div class="col-xs-12 col-sm-5">
               <p class="text-right">

@@ -2,6 +2,8 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  mode: 'spa',
+  
   head: {
     title: 'nuxt-site',
     meta: [
@@ -28,7 +30,7 @@ module.exports = {
   /*
   ** Build configuration
   */
-  plugins: ['~/plugins/vue-scrollto.js'],
+  plugins: [{src:'~/plugins/vue-scrollto.js', ssr: false}],
   build: {
     /*
     ** Run ESLint on save

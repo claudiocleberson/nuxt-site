@@ -67,9 +67,9 @@
                               <li>Redução nos limites de tempo de resposta ao mercado;</li>
                               <li>Integração dos departamentos e das informações.</li>
                             </ul>
-                            <router-link :to="{name: 'Servicos', hash: '#reestruturacao_section'}" tag="a" class="btn btn-primary" title="">
+                            <nuxt-link  :to="{name: 'servicos', hash: '#reestruturacao_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
-                            </router-link>
+                            </nuxt-link >
                           </div>
                       </div>
                       <div class="item">
@@ -95,9 +95,9 @@
                                 <li>Solução Permanente - Problemas nos Processos e Sistema;</li>
                                 <li>Cobrança – Cumprir rigorosamente as etapas.</li>
                               </ul>
-                            <router-link :to="{name: 'Servicos', hash: '#organizacaocredito_section'}" tag="a" class="btn btn-primary" title="">
+                            <nuxt-link  :to="{name: 'servicos', hash: '#organizacaocredito_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
-                            </router-link>
+                            </nuxt-link >
                           </div>
                       </div>
                       <div class="item">
@@ -121,9 +121,9 @@
                               <li>Preservar - Imagem frente ao Mercado e Recursos Financeiros;</li>
                               <li>Solução Permanente – Problemas com Processos e Sistema;</li>
                             </ul>
-                            <router-link :to="{name: 'Servicos', hash: '#organizacaopagar_section'}" tag="a" class="btn btn-primary" title="">
+                            <nuxt-link  :to="{name: 'servicos', hash: '#organizacaopagar_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
-                            </router-link>
+                            </nuxt-link >
                           </div>
                       </div>
                       <div class="item">
@@ -147,9 +147,9 @@
                                 <li>Integração e espirito de Equipe;</li>
                                 <li>Valorização e Motivação do Integrante;</li>
                               </ul>
-                              <router-link :to="{name: 'Servicos', hash: '#treinamento_section'}" tag="a" class="btn btn-primary" title="">
+                              <nuxt-link  :to="{name: 'servicos', hash: '#treinamento_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
-                              </router-link>
+                              </nuxt-link >
                           </div>
                       </div>
                   </div>
